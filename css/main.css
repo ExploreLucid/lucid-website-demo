@@ -1,0 +1,454 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   /*hamburger button: http://czero-solutions.com/wp-content/themes/czero/img/hamburgermenu.png*/
+
+html, body, p, h1, h2, h3, h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+}    
+
+
+body {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        background-color: #fff;
+	    background-position:center center;
+	    background-repeat:no-repeat;
+	    background-attachment: fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+
+	    overflow-x: hidden;
+        
+	  	}
+
+	.menu{
+		background-color: #9ACD32;
+		position: fixed;
+		z-index: 50;
+		display: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu a{
+		color: #fff;
+	}
+
+	.navbar-inverse {
+		background-color: #fff;
+		color: #333;
+	}
+
+	#logo {
+		height: 50px;
+		/*padding-bottom: 3em;*/
+		margin-bottom: 1em;
+		margin-top: 0;
+	}
+
+	.logo2 {
+		height: 100px;
+		margin-bottom: 0;
+		margin-top: 2em;
+	}
+	
+	.navlinks {
+		position: fixed;
+		right: 10%;
+	}
+	
+	.textbox {
+		margin-top: 17em;
+		margin-bottom: 5em;
+		text-align: center;
+		/*changed color to white */
+		color: #fff;
+	}
+
+	.textbox h1 {
+		font-size: 80px;
+		font-weight: bold;
+	}
+
+	.textbox h3 {
+		font-size: 70px;
+	}
+
+	section {
+		margin-top: 1em;
+		margin-bottom: 5em;
+		z-index: 13;
+		position: relative;
+		webkit-box-shadow: 5 5px 5px #888888;
+		box-shadow: 5 5px 5px #888888;
+	}
+
+	#landing {
+		height: 100%;
+	}
+
+	#about {
+		width: 100%;
+		height: 100%;
+	}
+	
+	footer {
+		border-top: .5px solid #333;
+		margin-top: 5em;
+	}
+	
+	#map_canvas {
+        height:20em;
+        width: 100%;
+		margin: 0;
+     }
+
+	.greenbox {
+		background-color: #9ACD32;
+		text-align: center;
+		color: #fff;
+        height:20em;
+		width: 100%;
+	}
+
+	
+	.info{
+		margin-top: 150px;
+		margin-bottom: 600px;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		background-color: #9ACD32;
+		text-align: center;
+		color: #fff;
+	}
+
+	.info h1{
+		font-size: 60px;
+	}
+
+	.info p{
+		font-size: 30px;
+		text-align: left;
+		margin-left: 300px;
+		margin-right: 300px;
+	}
+
+	.work img{
+		max-width: 300px;
+		max-height: 300px;
+		height: 60%;
+		width: 60%;
+	}
+
+	.work p{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.flat-button {
+	  width: 20%;
+	  margin: 0 auto;
+	  margin-top: 2em;
+	  border-radius: 5px;
+	  padding: .5em;
+	  padding-left: 2em;
+	  padding-right: 2em;
+	  position: relative;
+	  background: #bdc3c7;
+	  overflow: hidden;
+	  z-index: 1;
+
+	  transition: color .3s;
+	  text-align: center;
+	  font-size: 14px;
+	  font-weight: bolder;
+	  color: #fff;
+	}
+
+	.flat-button:after {
+	  position: absolute;
+	  top: 90%;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background: #7f8c8d;
+	  content: "";
+	  z-index: -2;
+	  transition: transform .3s;
+	}
+
+	.flat-button:hover::after {
+	  transform: translateY(-80%);
+	  transition: transform .3s;
+	}
+
+
+	.border-right {
+		border-right: 1px solid #fff;
+
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.teaminfo{
+		margin-top: 20px;
+		background-color: #fff;
+	}
+
+	.teaminfo h2{
+		color: #333;
+		font-size: 50px;
+	}
+
+	.circle img{
+		border-radius: 50%;
+		width: 80%;
+		height: 80%;
+		margin: 0 auto 25px auto;
+		position: relative;
+		display: block;
+	}
+
+	.description {
+		margin-top: 1em;
+		margin-bottom: .5em;
+		text-align: center;
+		color: #333;
+	}
+
+	ul{
+	    list-style-type: none;
+	}
+
+	.careers{
+		padding-top: 1em;
+		font-size: 1.2em;
+	}
+
+	.careers h2{
+		font-size: 3em;
+	}
+
+	.careers li{
+		text-align: left;
+		padding-bottom: 0.3em;
+	}
+
+	.careers p{
+		font-size: 1em;
+	}
+
+	#tempApplyWindow{
+		margin-left: none;
+		text-align: left;
+		font-size: 1.7em;
+	}
+
+	.no-anchor a {
+		color: inherit;
+	}
+
+	.equal-height {
+		padding-bottom: 5em;
+
+	}
+
+	.smallSizeDescription {
+		display: none;
+	}
+
+	.big-bottom {
+		padding-bottom: 5em;
+	}
+	
+	#fileBtn {
+		display: inline;
+	}
+
+	input {
+		margin-top: 1em;
+		color: #333;
+	}
+
+/****  Laptop size ****/
+
+@media (max-width: 1366px) {
+
+	#map_canvas {
+        height:20em;
+        width: 100%;
+		margin: 0;
+     }
+
+	.greenbox {
+		background-color: #9ACD32;
+		text-align: center;
+		color: #fff;
+        height: 100%;
+		width: 100%;
+	}
+
+	.smallSizeDescription {
+		display: none;
+	}
+
+}
+
+/**** Minimized laptop size ****/
+
+@media (max-width: 1200px) {
+
+		#map_canvas {
+        height:20em;
+        width: 100%;
+		margin: 0;
+     }
+
+
+	.greenbox {
+		background-color: #9ACD32;
+		text-align: center;
+		color: #fff;
+        height:100%;
+		width: 100%;
+	}
+
+
+	.description {
+		display: none;
+	}
+
+	.smallSizeDescription {
+		display: block;
+		margin: 2em;
+		text-align: center;
+	}
+
+	.border-right {
+		border: none;
+		margin-left: -1em;
+	}
+
+	.full-width {
+		width: 100%;
+		text-align: center;
+		margin-top: 2em;
+	}
+
+	.align-right {
+		margin-top: 2em;
+	}
+
+}
+
+
+/****  Tablet size ****/
+
+@media (max-width: 720px) {
+
+
+	#map_canvas {
+        height:20em;
+        width: 100%;
+		margin: 0;
+     }
+
+	.greenbox {
+		background-color: #9ACD32;
+		text-align: center;
+		color: #fff;
+        height:100%;
+		width: 100%;
+	}
+
+
+	.smallSizeDescription {
+		display: block;
+		margin: 2em;
+		text-align: center;
+	}
+
+	.jobDesc {
+		display: none;
+	}
+
+	.textbox h1, .textbox h3 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.info h1,h2,h3,h4 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.info p {
+		font-size: 24px;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+
+}
+
+/****  Mobile size ****/
+
+@media (max-width: 360px) {
+
+	body{
+		background-image:none;
+		background-color: #000;		/*switch to black background for mobile*/
+	}
+	
+	.overlay{			/*remove overlay*/
+		display: none;
+		background-color: none;
+	}
+
+	.textbox h1, .textbox h3 {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.info h1,h2,h3,h4 {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.info p {
+		font-size: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	#map_canvas {
+		height:20em;
+        	width: 100%;
+		margin: 0;
+     	}
+
+	.greenbox {
+		background-color: #9ACD32;
+		text-align: center;
+		color: #fff;
+        	height:100%;
+		width: 100%;
+	}
+
+	.flat-button {
+		padding-right: 4em;
+	}
+
+	.big-bottom {
+		padding-bottom: 2em;
+	}
+}
+
