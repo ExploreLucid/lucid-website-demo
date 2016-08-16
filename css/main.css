@@ -5,7 +5,7 @@
    /*hamburger button: http://czero-solutions.com/wp-content/themes/czero/img/hamburgermenu.png*/
 
 html, body, p, h1, h2, h3, h4 {
-	font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }    
 
 
@@ -49,10 +49,8 @@ body {
 	}
 
 	#logo {
-		height: 50px;
-		/*padding-bottom: 3em;*/
-		margin-bottom: 1em;
-		margin-top: 0;
+		height: 30px;
+		margin-top: 1em;
 	}
 
 	.logo2 {
@@ -66,8 +64,47 @@ body {
 		right: 10%;
 	}
 	
+.flat-button {
+	  width: 10%;
+	  margin: 0 auto;
+	  margin-top: 1em;
+	  border-radius: 10px;
+	  padding: .5em;
+	  position: relative;
+	  background: #2ecc71;
+	  overflow: hidden;
+	  z-index: 1;
+
+	  transition: color .3s;
+	  text-align: center;
+	  font-size: 14px;
+	  font-weight: bolder;
+	  color: #fff;
+	}
+
+	.flat-button:after {
+	  position: absolute;
+	  top: 90%;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background: #7f8c8d;
+	  content: "";
+	  z-index: -2;
+	  transition: transform .3s;
+	}
+
+	.flat-button:hover::after {
+	  transform: translateY(-80%);
+	  transition: transform .3s;
+}
+
 	.textbox {
 		text-align: center;
+	}
+
+	.padding-top {
+		padding-top: 8em;
 	}
 
 	section {
@@ -81,12 +118,7 @@ body {
 
 	#landing {
 		height: 100%;
-	}
-
-	#about {
-		width: 100%;
-		height: 100%;
-	}
+	}	
 	
 	footer {
 		border-top: .5px solid #333;
