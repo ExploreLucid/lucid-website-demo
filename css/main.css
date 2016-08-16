@@ -45,6 +45,9 @@ body {
 	.navbar-inverse {
 		border-color: transparent;
 		background-color: #fff;
+	}
+
+	.navbar-right {
 		color: #333;
 	}
 
@@ -88,7 +91,7 @@ body {
 	  left: 0;
 	  width: 100%;
 	  height: 100%;
-	  background: #7f8c8d;
+	  background: #8e44ad;
 	  content: "";
 	  z-index: -2;
 	  transition: transform .3s;
@@ -107,6 +110,13 @@ body {
 		padding-top: 8em;
 	}
 
+	.purple-button {
+		background-color:#8e44ad;
+		color: #fff;
+		border-radius: 20px;
+		height: 50%;
+	}
+
 	section {
 		margin-top: 1em;
 		margin-bottom: 5em;
@@ -119,21 +129,6 @@ body {
 	#landing {
 		height: 100%;
 	}	
-	
-	footer {
-		border-top: .5px solid #333;
-		margin-top: 5em;
-	}
-	
-	.greenbox {
-		background-color: #9b59b6;
-		text-align: center;
-		color: #fff;
-        height:20em;
-		width: 100%;
-	}
-
-	
 	.info{
 		margin-top: 150px;
 		margin-bottom: 600px;
@@ -250,88 +245,6 @@ body {
 		color: #333;
 	}
 
-/****  Laptop size ****/
-
-@media (max-width: 1366px) {
-
-	.greenbox {
-		background-color: #9ACD32;
-		text-align: center;
-		color: #fff;
-        height: 100%;
-		width: 100%;
-	}
-
-}
-
-/**** Minimized laptop size ****/
-
-@media (max-width: 1200px) {
-
-	.greenbox {
-		background-color: #9ACD32;
-		text-align: center;
-		color: #fff;
-        height:100%;
-		width: 100%;
-	}
-
-	.border-right {
-		border: none;
-		margin-left: -1em;
-	}
-
-	.full-width {
-		width: 100%;
-		text-align: center;
-		margin-top: 2em;
-	}
-
-	.align-right {
-		margin-top: 2em;
-	}
-
-}
-
-
-/****  Tablet size ****/
-
-@media (max-width: 720px) {
-
-	.greenbox {
-		background-color: #9ACD32;
-		text-align: center;
-		color: #fff;
-        height:100%;
-		width: 100%;
-	}
-
-
-	.smallSizeDescription {
-		display: block;
-		margin: 2em;
-		text-align: center;
-	}
-
-	.textbox h1, .textbox h3 {
-		font-size: 30px;
-		text-align: center;
-	}
-
-	.info h1,h2,h3,h4 {
-		font-size: 30px;
-		text-align: center;
-	}
-
-	.info p {
-		font-size: 24px;
-		margin-left: 0;
-		margin-right: 0;
-		text-align: center;
-	}
-
-}
-
 /****  Mobile size ****/
 
 @media (max-width: 360px) {
@@ -340,10 +253,18 @@ body {
 		background-image:none;
 		background-color: #fff;		/*switch to black background for mobile*/
 	}
+
+	.phone-img {
+		width: 100%;
+	}
 	
 	.textbox h1, .textbox h3 {
 		font-size: 24px;
 		text-align: center;
+	}
+
+	.flat-button {
+		width:30%;
 	}
 
 	.info h1,h2,h3,h4 {
@@ -356,18 +277,6 @@ body {
 		margin-left: 0;
 		margin-right: 0;
 		text-align: center;
-	}
-
-	.greenbox {
-		background-color: #9ACD32;
-		text-align: center;
-		color: #fff;
-        	height:100%;
-		width: 100%;
-	}
-
-	.big-bottom {
-		padding-bottom: 2em;
 	}
 }
 
