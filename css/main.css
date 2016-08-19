@@ -4,13 +4,18 @@
 
    /*hamburger button: http://czero-solutions.com/wp-content/themes/czero/img/hamburgermenu.png*/
 
+@font-face {
+	font-family: "helvetica-neue";
+	src: url(HelveticaNeue.ttf);
+}
+
 html, body, p, h1, h2, h3, h4 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'helvetica-neue', sans-serif;
+    font-size: 16.1px;
 }    
 
 
 body {
-        padding-top: 50px;
         padding-bottom: 20px;
         background-color: #fff;
 	    background-position:center center;
@@ -27,6 +32,7 @@ body {
 	  	}
 	h2 {
 		color: #9b59b6;
+		font-size: 24px;
 	}
 
 	.menu{
@@ -36,10 +42,6 @@ body {
 		display: none;
 		width: 100%;
 		text-align: center;
-	}
-
-	.menu a{
-		color: #fff;
 	}
 
 	.navbar-inverse {
@@ -52,8 +54,7 @@ body {
 	}
 
 	#logo {
-		height: 30px;
-		margin-top: 1em;
+		width: 196.8px;
 	}
 
 	.logo2 {
@@ -61,13 +62,18 @@ body {
 		margin-bottom: 0;
 		margin-top: 2em;
 	}
-	
-	.navlinks {
-		position: fixed;
-		right: 10%;
+		
+	.phone-img {
+		height:520px;
+		width:325px;
+		margin-top: 50px;
 	}
-	
-.flat-button {
+
+	.page-scroll {
+		padding-right: 5em;
+	}
+
+	.flat-button {
 	  width: 10%;
 	  margin: 0 auto;
 	  margin-top: 1em;
@@ -106,15 +112,21 @@ body {
 		text-align: center;
 	}
 
-	.padding-top {
-		padding-top: 8em;
+	.front-page {
+		padding-top: 10.5em;
+		margin-left: 1em;
 	}
 
-	.purple-button {
-		background-color:#8e44ad;
-		color: #fff;
+	.purple-button-outer {
+		padding-right: 0;
+		background-image: url('../img/button-background.png');
+		background-position: center center;
+		background-repeat: no-repeat;
 		border-radius: 20px;
-		height: 50%;
+	}
+
+	.purple-button-inner {
+		color: #fff;
 	}
 
 	section {
@@ -247,7 +259,7 @@ body {
 
 /****  Mobile size ****/
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
 
 	body{
 		background-image:none;
