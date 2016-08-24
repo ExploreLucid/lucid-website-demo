@@ -35,13 +35,9 @@ body {
 		font-size: 24px;
 	}
 
-	.menu{
-		background-color: #9ACD32;
-		position: fixed;
-		z-index: 50;
-		display: none;
-		width: 100%;
-		text-align: center;
+	a {
+		color: #4c4c4c;
+		text-decoration: none;
 	}
 
 	.navbar-inverse {
@@ -56,12 +52,6 @@ body {
 	#logo {
 		width: 196.8px;
 	}
-
-	.logo2 {
-		height: 100px;
-		margin-bottom: 0;
-		margin-top: 2em;
-	}
 		
 	.phone-img {
 		height:520px;
@@ -70,7 +60,8 @@ body {
 	}
 
 	.page-scroll {
-		padding-right: 5em;
+		padding-right: 4.5em;
+		color: #333;
 	}
 
 	.flat-button {
@@ -119,31 +110,38 @@ body {
 
 	.purple-button-outer {
 		padding-right: 0;
-		background-image: url('../img/button-background.png');
-		background-position: center center;
+		background-color:#7f5ab4;
+		background-position: center -8px;
 		background-repeat: no-repeat;
-		border-radius: 20px;
+		border-radius: 100px;
+		margin-top: .5em;
+		height:2em;
 	}
 
 	.purple-button-inner {
 		color: #fff;
+		top:-.5em;
+	}
+
+	#scroll-down-overlay {
+		position: absolute;
+		width:1400px;
+		height: 150px;
+		top:29.5em;
+		left: -14em;
+		background-color:#7f5ab4;
+		opacity: 0.5;
+		margin-bottom:;
 	}
 
 	section {
-		margin-top: 1em;
-		margin-bottom: 5em;
 		z-index: 13;
 		position: relative;
 		webkit-box-shadow: 5 5px 5px #888888;
 		box-shadow: 5 5px 5px #888888;
 	}
 
-	#landing {
-		height: 100%;
-	}	
 	.info{
-		margin-top: 150px;
-		margin-bottom: 600px;
 		padding-top: 3em;
 		padding-bottom: 3em;
 		background-color: #9b59b6;
