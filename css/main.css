@@ -124,12 +124,12 @@ body {
 
 	.call-to-action {
 		color: #fff;
-		font-size:35px;
-		margin-bottom:.6em;
+		font-size:20px;
+		margin-bottom:1.5em;
 	}
 
 	.info{
-		padding-top: 3em;
+		padding-top: 1.5em;
 		padding-bottom: 3em;
 		background-color: #9b59b6;
 		text-align: center;
@@ -150,7 +150,7 @@ body {
 	.border-radius {
 		border-color: #63468c;
 		border-radius: 5px;
-		border-width:.25px;
+		border-width:0px;
 	}
 
 	.email-box {
