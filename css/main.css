@@ -175,6 +175,11 @@ body {
 	    list-style-type: none;
 	}
 
+	.square {
+		margin-left: 20em;
+		margin-right:20em;
+	}
+
 	.no-anchor a {
 		color: inherit;
 	}
