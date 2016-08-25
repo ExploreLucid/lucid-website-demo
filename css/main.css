@@ -40,6 +40,22 @@ body {
 		text-decoration: none;
 	}
 
+	::-webkit-input-placeholder {
+   		color: #cecece;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		color: #cecece;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #cecece;
+	}
+
+	:-ms-input-placeholder {  
+	  	color: #cecece; 
+	}
+
 	.navbar-inverse {
 		border-color: transparent;
 		background-color: #fff;
@@ -63,41 +79,6 @@ body {
 		padding-right: 4.5em;
 		color: #333;
 	}
-
-	.flat-button {
-	  width: 10%;
-	  margin: 0 auto;
-	  margin-top: 1em;
-	  border-radius: 10px;
-	  padding: .5em;
-	  position: relative;
-	  background: #2ecc71;
-	  overflow: hidden;
-	  z-index: 1;
-
-	  transition: color .3s;
-	  text-align: center;
-	  font-size: 14px;
-	  font-weight: bolder;
-	  color: #fff;
-	}
-
-	.flat-button:after {
-	  position: absolute;
-	  top: 90%;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  background: #8e44ad;
-	  content: "";
-	  z-index: -2;
-	  transition: transform .3s;
-	}
-
-	.flat-button:hover::after {
-	  transform: translateY(-80%);
-	  transition: transform .3s;
-}
 
 	.textbox {
 		text-align: center;
@@ -141,6 +122,12 @@ body {
 		box-shadow: 5 5px 5px #888888;
 	}
 
+	.call-to-action {
+		color: #fff;
+		font-size:35px;
+		margin-bottom:.6em;
+	}
+
 	.info{
 		padding-top: 3em;
 		padding-bottom: 3em;
@@ -160,100 +147,42 @@ body {
 		margin-right: 300px;
 	}
 
-	.work img{
-		max-width: 300px;
-		max-height: 300px;
-		height: 60%;
-		width: 60%;
+	.border-radius {
+		border-color: #63468c;
+		border-radius: 5px;
+		border-width:.25px;
 	}
 
-	.work p{
-		margin-left: 0px;
-		margin-right: 0px;
+	.email-box {
+		width: 351px;
+		height:29px;
+		margin-left:.7em;
 	}
 
-	.border-right {
-		border-right: 1px solid #fff;
-
+	.email-btn {
+		color:#fff;
+		background-color:#aed4af;
+		width:187px;
+		float:left;
+		margin-left:-1.85em;
 	}
 
 	.hidden {
 		display: none;
 	}
 
-	.teaminfo{
-		margin-top: 20px;
-		background-color: #fff;
-	}
-
-	.teaminfo h2{
-		color: #333;
-		font-size: 50px;
-	}
-
-	.circle img{
-		border-radius: 50%;
-		width: 80%;
-		height: 80%;
-		margin: 0 auto 25px auto;
-		position: relative;
-		display: block;
-	}
-
-	.description {
-		margin-top: 1em;
-		margin-bottom: .5em;
-		text-align: center;
-		color: #333;
-	}
-
 	ul{
 	    list-style-type: none;
-	}
-
-	.careers{
-		padding-top: 1em;
-		font-size: 1.2em;
-	}
-
-	.careers h2{
-		font-size: 3em;
-	}
-
-	.careers li{
-		text-align: left;
-		padding-bottom: 0.3em;
-	}
-
-	.careers p{
-		font-size: 1em;
 	}
 
 	.no-anchor a {
 		color: inherit;
 	}
 
-	.equal-height {
-		padding-bottom: 5em;
+/**** Tablet size ****/
+@media (max-width: 750px)	{
 
-	}
-
-	.smallSizeDescription {
-		display: none;
-	}
-
-	.big-bottom {
-		padding-bottom: 5em;
-	}
-	
-	#fileBtn {
-		display: inline;
-	}
-
-	input {
-		margin-top: 1em;
-		color: #333;
-	}
+}
 
 /****  Mobile size ****/
 
@@ -266,15 +195,12 @@ body {
 
 	.phone-img {
 		width: 100%;
+		height: 100%;
 	}
 	
 	.textbox h1, .textbox h3 {
 		font-size: 24px;
 		text-align: center;
-	}
-
-	.flat-button {
-		width:30%;
 	}
 
 	.info h1,h2,h3,h4 {
