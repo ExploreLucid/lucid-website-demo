@@ -38,6 +38,11 @@ body {
 
 	a {
 		color: #4c4c4c;
+		font-weight: 200;
+		text-decoration: none;
+	}
+
+	a::hover {
 		text-decoration: none;
 	}
 
@@ -123,7 +128,18 @@ body {
 		box-shadow: 5 5px 5px #888888;
 	}
 
+	.front-page-title {
+		font-weight: 200;
+		line-height: 2.1;
+	}
+
+	.front-page-text {
+		font-weight:200;
+		color: #A1A1A1;
+	}
+
 	.call-to-action {
+		font-size:21.44px;
 		color: #fff;
 		font-size:20px;
 		margin-bottom:1.5em;

@@ -4,6 +4,7 @@ $("#emailSentResult").hide();
 
 $(".email-btn").click(function() {
 	$(".email-btn, .email-box").fadeOut(500, function() {
+		$(".call-to-action").css("margin-bottom",".8em");
 		$("#emailSentResult").fadeIn();
 	});
 });
