@@ -3,8 +3,9 @@
 $("#emailSentResult").hide();
 
 $(".email-btn").click(function() {
-	$(".email-btn, .email-box").fadeOut();
-	$("#emailSentResult").fadeIn();
+	$(".email-btn, .email-box").fadeOut(500, function() {
+		$("#emailSentResult").fadeIn();
+	});
 });
 
 
