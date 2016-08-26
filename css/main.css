@@ -129,6 +129,17 @@ body {
 		margin-bottom:1.5em;
 	}
 
+	#heart-img {
+		width: 30px;
+		height: 25px;
+	}
+
+	#emailSentText {
+		margin-top:1em;
+		height: 16px;
+		width: 200px;
+	}
+
 	.info{
 		padding-top: 1.5em;
 		padding-bottom: 3em;
@@ -139,13 +150,6 @@ body {
 
 	.info h1{
 		font-size: 60px;
-	}
-
-	.info p{
-		font-size: 30px;
-		text-align: left;
-		margin-left: 300px;
-		margin-right: 300px;
 	}
 
 	.border-radius {
@@ -163,6 +167,7 @@ body {
 	}
 
 	.email-btn {
+		height:29px;
 		color:#fff;
 		background-color:#aed4af;
 		width:187px;
