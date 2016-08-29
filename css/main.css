@@ -120,6 +120,13 @@ body {
 		margin-bottom:;
 	}
 
+	.down-arrow {
+		height: 20px;
+		width: 50px;
+		margin-left: 38em;
+		margin-top:2.5em;
+	}
+
 	section {
 		z-index: 13;
 		position: relative;
