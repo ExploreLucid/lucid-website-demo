@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: "helvetica-neue";
-	src: url(HelveticaNeue.ttf);
+	src: url(../fonts/HelveticaNeue.ttf);
 }
 
 html, body, p, h1, h2, h3, h4 {
