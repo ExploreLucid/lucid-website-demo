@@ -9,6 +9,11 @@
 	src: url(../fonts/HelveticaNeue.ttf);
 }
 
+@font-face {
+	font-family:"helvetica-light";
+	src: url(../fonts/HelveticaNeue-Light.ttf);
+}
+
 html, body, p, h1, h2, h3, h4 {
     font-family: 'helvetica-neue', sans-serif;
     font-size: 16.1px;
@@ -112,8 +117,8 @@ body {
 	#scroll-down-overlay {
 		position: absolute;
 		width:1400px;
-		height: 150px;
-		top:29.5em;
+		height: 100px;
+		top:31em;
 		left: -14em;
 		background-color:#7f5ab4;
 		opacity: 0.5;
@@ -124,7 +129,7 @@ body {
 		height: 20px;
 		width: 50px;
 		margin-left: 38em;
-		margin-top:2.5em;
+		margin-top:1.5em;
 	}
 
 	section {
@@ -135,12 +140,12 @@ body {
 	}
 
 	.front-page-title {
-		font-weight: 200;
+		font-family: "helvetica-light";
 		line-height: 2.1;
 	}
 
 	.front-page-text {
-		font-weight:200;
+		line-height: 1.2;
 		color: #A1A1A1;
 	}
 
