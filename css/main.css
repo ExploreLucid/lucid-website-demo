@@ -18,6 +18,8 @@ html, body, p, h1, h2, h3, h4 {
     font-family: 'helvetica-neue', sans-serif;
     font-size: 16.1px;
     letter-spacing: 0px;
+    max-width: 100%;
+    overflow-x:hidden;
 }    
 
 
@@ -122,10 +124,6 @@ body {
 		top:-.5em;
 	}
 
-	.scroll-down-container {
-		height: 10vh;
-	}
-
 	#scroll-down-overlay {
 		position: absolute;
 		width:105vw;
@@ -150,6 +148,7 @@ body {
 	.front-page-title {
 		font-family: "helvetica-light";
 		line-height: 2.1;
+		letter-spacing: 2px;
 	}
 
 	.front-page-text {
@@ -210,10 +209,6 @@ body {
 		margin-left:-1.85em;
 	}
 
-	.hidden {
-		display: none;
-	}
-
 	ul{
 	    list-style-type: none;
 	}
@@ -260,6 +255,10 @@ body {
 /**** Tablet size ****/
 @media (max-width: 770px) {
 
+	#logo {
+		margin-left: 30vw;
+	}
+
 	.front-page {
 		display: none;
 	}
@@ -286,10 +285,6 @@ body {
 		margin-top: 2.5vh;
 	}
 
-	.mobile-btn {
-		display: block;
-	}
-
 }
 
 /****  Mobile size ****/
@@ -299,6 +294,10 @@ body {
 	body{
 		background-image:none;
 		background-color: #fff;		/*switch to black background for mobile*/
+	}
+
+	#logo {
+		margin-left: 20vw;
 	}
 
 	.phone-img {
