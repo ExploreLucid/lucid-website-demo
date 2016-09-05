@@ -79,14 +79,14 @@ body {
 		width: 196.8px;
 	}
 		
-	.mobile-btn {
+	.mobile-front-page {
 		display: none;
 	}
 
 	.phone-img {
 		height:520px;
 		width:325px;
-		margin-top: 14vh;
+		margin-top: 13.5vh;
 	}
 
 	.page-scroll {
@@ -227,8 +227,14 @@ body {
 		color: inherit;
 	}
 
+@media (min-width: 1201px) {
+	.comms-container {
+		padding-bottom: 6.5vh;
+	}
+}
+
 /**** Smaller Laptop Size ****/
-@media (max-width: 1200px) and (min-width: 751px){
+@media (max-width: 1200px) and (min-width: 771px){
 
 	.call-to-action {
 		margin-right: 32vw;
@@ -244,22 +250,34 @@ body {
 		margin-top: 2vh;
 	}
 
-	#join {
-		height: 20vh;
+	.email-box {
+		margin-right: 15vw;
+		margin-left: 15vw;
 	}
+
 }
 
 /**** Tablet size ****/
-@media (max-width: 750px) {
+@media (max-width: 770px) {
+
+	.front-page {
+		display: none;
+	}
+
+	.mobile-front-page {
+		display: block;
+		margin-top: 5vh;
+		text-align: center;
+	}
+
 	.call-to-action {
+		margin-right: 0;
 		margin-bottom: 2.5vh;
 	}
 
 	.phone-img {
-		margin-left: 5vw;
-	}
-	.call-to-action {
-		margin-right: 0;
+		margin-top: 1em;
+		margin-left: 20vw;
 	}
 
 	.email-btn {
@@ -276,21 +294,18 @@ body {
 
 /****  Mobile size ****/
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
 
 	body{
 		background-image:none;
 		background-color: #fff;		/*switch to black background for mobile*/
 	}
 
-	.coming-soon {
-		display: none;
-	}
-
 	.phone-img {
-		margin-left: 0px;
+		margin-top:14vh;
+		margin-left: 25vw;
 		width: 50%;
-		height: 50%;
+		height: 100%;
 	}
 	
 	.textbox h1, .textbox h3 {
