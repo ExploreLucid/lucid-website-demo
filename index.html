@@ -10,11 +10,11 @@
 	<meta name="author" content="ThinkCapsule">
 	<meta name="description" content="Lucid is a dating app"/>
 	<meta name="keywords" content="Lucid,web,web application,development,ios,android,software"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
 
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/main.css"/>
         <script src="./js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
         <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
@@ -32,7 +32,10 @@
         <![endif]-->
     <nav class="navbar navbar-inverse" role="navigation">
       <div class="container">
-          <a class="navbar-brand" href="#scroll-to-top"><img id="logo" src="./img/logo.png" alt="ThinkCapsule"></a>      
+          <a class="navbar-brand" href="#scroll-to-top"><img id="logo" src="./img/logo.png" alt="Lucid"></a>
+          <div class="page-scroll mobile-btn mobile-btn-outer purple-button-outer">
+            <a class="purple-button-inner mobile-btn" href="#join">Join</a>
+          </div>     
           <!-- Navigation Links -->
           <div class="collapse navbar-collapse" >
               <ul class="nav navbar-nav navbar-right">
@@ -59,14 +62,16 @@
         <div class="row">
           <div class="col-lg-4 col-lg-offset-2 col-sm-4">
             <img class="phone-img" src="./img/phone-in-hand.png" alt="Phone in hand" />
-              <div id="scroll-down-overlay">
-                  <a href="#join"><img class="down-arrow" src="./img/arrowdown.svg" /></a>
-              </div>
           </div>
           <div class="col-lg-4 textbox front-page">
   	            <h2 class="front-page-title">AUTHENTIC COMMUNICATION</h2>
   	            <p class="front-page-text-1">Secretly like your friends, match when <br> they like you back</p>            
           </div>
+          <div class="scroll-down-container">
+            <div id="scroll-down-overlay">
+                <a href="#join"><img class="down-arrow" src="./img/arrowdown.svg" /></a>
+            </div>
+          </div>    
       </div>
       </section>
 
