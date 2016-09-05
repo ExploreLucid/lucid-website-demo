@@ -79,10 +79,14 @@ body {
 		width: 196.8px;
 	}
 		
+	.mobile-btn {
+		display: none;
+	}
+
 	.phone-img {
 		height:520px;
 		width:325px;
-		margin-top: 50px;
+		margin-top: 15vh;
 	}
 
 	.page-scroll {
@@ -92,6 +96,10 @@ body {
 
 	.textbox {
 		text-align: center;
+	}
+
+	#landing {
+		height: 85vh;
 	}
 
 	.front-page {
@@ -114,22 +122,22 @@ body {
 		top:-.5em;
 	}
 
+	.scroll-down-container {
+		height: 10vh;
+	}
+
 	#scroll-down-overlay {
 		position: absolute;
-		width:1400px;
-		height: 100px;
-		top:31em;
-		left: -14em;
+		width:105vw;
+		height: 10vh;
 		background-color:#7f5ab4;
 		opacity: 0.5;
-		margin-bottom:;
+		top: 76vh;
 	}
 
 	.down-arrow {
-		height: 20px;
-		width: 50px;
-		margin-left: 38em;
-		margin-top:1.5em;
+		margin-left:48vw;
+		margin-top: 3vh;
 	}
 
 	section {
@@ -219,9 +227,51 @@ body {
 		color: inherit;
 	}
 
-/**** Tablet size ****/
-@media (max-width: 750px)	{
+/**** Smaller Laptop Size ****/
+@media (max-width: 1200px) and (min-width: 751px){
 
+	.call-to-action {
+		margin-right: 32vw;
+		margin-bottom: 2.5vh;
+	}
+
+	.phone-img {
+		margin-left: 15vw;
+	}
+
+	.email-btn {
+		margin-left: 43vw;
+		margin-top: 2vh;
+	}
+
+	#join {
+		height: 20vh;
+	}
+}
+
+/**** Tablet size ****/
+@media (max-width: 750px) {
+	.call-to-action {
+		margin-bottom: 2.5vh;
+	}
+
+	.phone-img {
+		margin-left: 5vw;
+	}
+	.call-to-action {
+		margin-right: 0;
+	}
+
+	.email-btn {
+		float: none;
+		margin-left: 0;
+		margin-top: 2.5vh;
+	}
+
+	.mobile-btn {
+		display: block;
+	}
+	
 }
 
 /****  Mobile size ****/
@@ -231,6 +281,10 @@ body {
 	body{
 		background-image:none;
 		background-color: #fff;		/*switch to black background for mobile*/
+	}
+
+	.coming-soon {
+		display: none;
 	}
 
 	.phone-img {
@@ -254,5 +308,6 @@ body {
 		margin-right: 0;
 		text-align: center;
 	}
+
 }
 
