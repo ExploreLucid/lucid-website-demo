@@ -86,8 +86,8 @@ body {
 	}
 
 	.phone-img {
-		height:520px;
-		width:325px;
+		height:528px;
+		width:328px;
 		margin-top: 13.7vh;
 	}
 
@@ -105,7 +105,7 @@ body {
 	}
 
 	.front-page {
-		padding-top: 30vh;
+		padding-top: 22vh;
 		margin-left: 1em;
 	}
 
@@ -172,6 +172,7 @@ body {
 		font-family: 'helvetica-light';
 		font-size: 12px;
 		color:#aed4af;
+		letter-spacing: 0.75px;
 	}
 
 	.call-to-action {
@@ -320,7 +321,7 @@ body {
 
 	.phone-img {
 		margin-top:3vh;
-		margin-left: 9.9vw;
+		margin-left: 5.8vw;
 		width: 70%;
 		height: 100%;
 	}
