@@ -88,7 +88,7 @@ body {
 	.phone-img {
 		height:520px;
 		width:325px;
-		margin-top: 13.3vh;
+		margin-top: 13.7vh;
 	}
 
 	.page-scroll {
@@ -105,8 +105,16 @@ body {
 	}
 
 	.front-page {
-		padding-top: 10.5em;
+		padding-top: 30vh;
 		margin-left: 1em;
+	}
+
+	.front-page > a {
+		text-decoration:none;
+	}
+
+	.mobile-front-page > a {
+		text-decoration:none;
 	}
 
 	.purple-button-outer {
@@ -230,7 +238,7 @@ body {
 
 	.no-anchor a {
 		color: inherit;
-	}
+	}	
 
 @media (min-width: 1201px) {
 	.comms-container {
@@ -275,7 +283,7 @@ body {
 
 	.mobile-front-page {
 		display: block;
-		margin-top: 8vh;
+		margin-top: 6vh;
 		text-align: center;
 	}
 
