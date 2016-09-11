@@ -14,6 +14,11 @@
 	src: url(../fonts/HelveticaNeue-Light.ttf);
 }
 
+@font-face {
+	font-family: "helvetica-thin";
+	src: url(../fonts/HelveticaNeue-Thin.ttf);
+}
+
 html, body, p, h1, h2, h3, h4 {
     font-family: 'helvetica-neue', sans-serif;
     font-size: 16.1px;
@@ -105,7 +110,7 @@ body {
 	}
 
 	.front-page {
-		padding-top: 22vh;
+		padding-top: 27vh;
 		margin-left: 1em;
 	}
 
@@ -154,9 +159,10 @@ body {
 	}
 
 	.front-page-title {
-		font-family: "helvetica-light";
+		font-family: "helvetica-thin";
 		line-height: 2.1;
-		letter-spacing: 2px;
+		letter-spacing: 1.7px;
+		font-size: 25px;
 	}
 
 	.front-page-text {
@@ -165,7 +171,10 @@ body {
 	}
 
 	.front-page-text-1 {
-		font-family: "helvetica-light";
+		font-size: 15.1px;
+		letter-spacing: 1px;
+		margin-top: -.75em;
+		font-family: "helvetica-thin";
 	}
 
 	.front-page-subtext {
@@ -176,9 +185,10 @@ body {
 	}
 
 	.call-to-action {
-		font-size:21.44px;
+		font-family: 'helvetica-thin';
+		letter-spacing: 1px;
 		color: #fff;
-		font-size:20px;
+		font-size:22px;
 		margin-bottom:1.5em;
 	}
 
