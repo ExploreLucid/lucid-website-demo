@@ -26,6 +26,9 @@
 
     <!-- Theme CSS -->
     <link href="css/new-age.css" rel="stylesheet">
+    
+    <!--    font awesome-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +46,7 @@
                 <div  class="col-sm-2"></div>
                 <div class="col-sm-3" id="iphone">
                     <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
+                        <div id="iphone_img" class="device-mockup iphone6_plus portrait white">
                             <div class="device">
                                 <div class="screen">
                                     <img src="img/screen.jpg" class="img-responsive" alt="">
@@ -70,11 +73,27 @@
                             <img id="apple_img" src="img/apple_badge.svg" alt="">
                         </div>
                     </div>
+                    
+                    <div class="arrow bounce">
+                        <a class="page-scroll" href="#contact">
+                            <img src="img/Arrow.png">
+                        </a>
+                    </div>    
                 </div>
-                <div id="arrow" class="col-sm-3">
-                <a class="page-scroll" href="#contact">down</a>
-                </div>
+                <div class="col-sm-1"></div>
             </div>
+<!--
+            <div id="arrow">
+                    <a class="page-scroll" href="#contact">down</a>
+            </div>
+-->
+<!--            <div class="arrow bounce">-->
+<!--                <a class="fa fa-arrow-down fa-2x" href="#"></a>-->
+<!--                <a class="page-scroll" href="#contant">Hello</a>-->
+<!--
+                <img src="img/Arrow.png">
+            </div>
+-->
         </div>
     </header>
 
@@ -93,8 +112,7 @@
                 </li>
                 <li class="social-google-plus">
                    <img src="img/email.png">
-                </li>
-                
+                </li>    
             </ul>
         </div>
     </section>
