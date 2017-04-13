@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 /*
+
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -66,6 +67,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+.footerCopy {
+  font-size: 14px;
+  font-family: "HelveticaNeue-Medium";
 }
 
 /*Head Page Template CSS*/
@@ -174,7 +180,6 @@ header .device-container .screen img {
 }
 
 #description {
-    margin-top:30px;
     text-align: center;
 }
 
@@ -209,7 +214,7 @@ a:hover{
 .arrow {
   text-align: left;
   margin: 8% 0;
-  margin-top:-30vh;
+  margin-top:-25vh;
 }
 
 .bounce {
