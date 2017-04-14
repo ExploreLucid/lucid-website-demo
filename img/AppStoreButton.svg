@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="51px" viewBox="0 0 158 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>AppStoreButton</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-904.000000, -661.000000)">
+            <g id="AppStoreButton" transform="translate(904.000000, 661.000000)">
+                <g id="Rectangle-1-+-Imported-Layers">
+                    <rect id="Rectangle-1" fill="#AED4AF" x="0" y="0" width="158" height="51" rx="25.5"></rect>
+                    <path d="M32.1655934,16.9489048 C34.8615947,16.9489048 36.5855761,19.8354267 36.5855761,19.8354267 C36.5855761,19.8354267 33.9557063,21.4146286 33.9557063,24.844279 C33.9557063,28.9148848 37.2594339,30.0989686 37.2594339,30.0989686 C37.2594339,30.0989686 34.651798,36.9455648 31.7237661,36.9455648 C30.0773183,36.9455648 29.967289,35.8974219 27.7792465,35.8974219 C25.8791043,35.8974219 25.2383123,36.9455648 23.7908292,36.9455648 C21.0281262,36.9455648 17.4593023,30.2717533 17.4593023,24.844279 C17.4593023,19.206541 21.072594,16.9489048 23.3376,16.9489048 C25.3266777,16.9489048 26.1550326,18.2441552 27.7570126,18.2441552 C29.1052983,18.2441552 30.1662538,16.9489048 32.1655934,16.9489048 L32.1655934,16.9489048 Z M31.7021023,11.2 C32.0994618,13.9632857 29.8344558,17.3808667 27.1276226,17.2697 C26.729693,13.7536571 29.646893,11.3854895 31.7021023,11.2 L31.7021023,11.2 Z" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+                <text id="App-Store" font-family=".SFNSText-Medium, .SF NS Text" font-size="20" font-weight="400" fill="#FFFFFF">
+                    <tspan x="45.2138672" y="32">App Store</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
