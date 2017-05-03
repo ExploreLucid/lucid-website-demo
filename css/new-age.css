@@ -28,7 +28,7 @@ body {
 }
 
 body {
-  font-family: Helvetica, "Helvetica Neue","HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: Helvetica, "Helvetica Neue","HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
 }
 /*
@@ -59,19 +59,21 @@ h3,
 h4,
 h5,
 h6 {
-    
+
   font-weight: 300;
   letter-spacing: 1px;
 }
 p {
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .footerCopy {
-  font-size: 14px;
-  font-family: "HelveticaNeue-Medium";
+  font-size: 15px;
+  font-family: "HelveticaNeue-Light";
+  letter-spacing: 0px;
+
 }
 
 /*Head Page Template CSS*/
@@ -80,7 +82,7 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-   W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+   W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
   color: black;
 }
 
@@ -153,7 +155,7 @@ header .device-container .screen img {
   width: 100%;
   text-align: center;
     margin-top: -220px;
-  
+
 }
 */
 
@@ -171,7 +173,7 @@ header .device-container .screen img {
 
 #explore h3{
     color:#683FAB;
-    font-weight: 400;   
+    font-weight: 400;
 }
 
 #explore{
@@ -184,8 +186,8 @@ header .device-container .screen img {
 }
 
 #description p {
-    color:#D4D4D4;
-    font-weight: 200;   
+    color:#C8C8C8;
+    font-weight: 200;
 }
 
 #apple_img{
@@ -212,7 +214,7 @@ a:hover{
 .arrow {
   text-align: left;
   margin: 8% 0;
-  margin-top:-25vh;
+  margin-top:-26vh;
 }
 
 .bounce {
@@ -245,7 +247,7 @@ section.contact {
   text-align: center;
   height: 28vh;
 position: relative;
-    
+
 }
 section.contact h2 {
   margin-top: 0;
@@ -256,12 +258,12 @@ section.contact h2 i {
 }
 section.contact ul.list-social {
     display: block;
-    margin-top: 10vh;
+    margin-top: 8vh;
 }
 
 section.contact ul.list-social li {
-  padding-left:12px;
-  padding-right:12px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 section.contact ul.list-social li img {
@@ -298,8 +300,7 @@ footer ul li a.active {
 
 .bg-primary {
   background: #683FAB;
-  background: -webkit-linear-gradient(#683FAB, #704CAC);
-  background: linear-gradient(#683FAB, #704CAC);
+
 }
 
 .text-primary {
@@ -355,7 +356,7 @@ body {
 }
 
 header {
- 
+
 }
 
 
@@ -363,18 +364,18 @@ header {
 
 /*Responsive View*/
 @media screen and (max-width:450px){
-    
-    
+
+
     html, body {
         height: 100%;
     }
-    
+
     #iphone_img {
         position: fixed;
         visibility: hidden;
     }
-    
-    
+
+
     header {
         background-image: url(../img/Phone_View.png);
         background-repeat: no-repeat;
@@ -384,18 +385,18 @@ header {
         height: auto !important;
 
     }
-    
+
     #logo img{
         margin-top: -17vh;
         width: 100px;
         margin-bottom: 7vh;
     }
-    
+
     #description {
     margin-top: 3vh;
     text-align: center;
     }
-    
+
     #apple_img {
     margin-top: 50px;
     width: 200px;
@@ -403,28 +404,26 @@ header {
     margin-left: auto;
     margin-right: auto;
     }
-    
+
 /*
     #arrow {
       width: 100%;
       text-align: center;
         position: absolute;
         bottom: 20px;
-    
+
     }
 */
-    
+
     .arrow {
       text-align: center;
       margin: 8% 0;
       margin-top:10vh;
     }
-    
+
     .arrow img{
         margin-right:2vh;
     }
 
- 
+
 }
-
-

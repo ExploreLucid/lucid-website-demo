@@ -324,7 +324,7 @@
 
 .device-mockup.iphone6_plus.white > .device,
 .device-mockup.iphone6_plus.portrait.white > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_white_port.png");
+	background-image: url("../../img/iPhoneWithHomeScreen.svg");
 }
 
 .device-mockup.iphone6_plus.landscape.white > .device {
