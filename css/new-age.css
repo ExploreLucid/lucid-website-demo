@@ -172,7 +172,7 @@ header .device-container .screen img {
 }
 
 #explore h3{
-    color:#683FAB;
+    color:#5124A0;
     font-weight: 400;
 }
 
@@ -202,7 +202,7 @@ header .device-container .screen img {
 
 body { background: black;}
 
-a { color:#683FAB; text-decoration: none; }
+a { color:#4C269A; text-decoration: none; }
 a:hover{
     color:none;
 }
@@ -274,7 +274,7 @@ section.contact ul.list-social li img {
 
 
 footer {
-  background-color: #222222;
+  background-color: #4C269A;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -299,7 +299,7 @@ footer ul li a.active {
 
 
 .bg-primary {
-  background: #683FAB;
+  background: #5124A0;
 
 }
 
