@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="25.5" cy="25.5" r="25.5"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mail" transform="translate(2.000000, 1.000000)">
+            <g id="Group-2">
+                <g id="Group-6">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Mail" transform="translate(12.000000, 16.000000)">
+                        <polygon id="Fill-64" fill="#E5E5DA" points="0 20 28 20 28 0 0 0"></polygon>
+                        <path d="M0,0.000487804878 L13.1011034,13.3014634 C13.6075172,13.777561 14.3924828,13.777561 14.8988966,13.3014634 L28,0 L0,0.000487804878" id="Fill-217" fill="#D1D0BF"></path>
+                        <path d="M0,19.3702439 L0,0.629756098 C0,0.371707317 0.292551724,0.225365854 0.495793103,0.38195122 L10.137931,10.2439024 L0.495793103,19.6185366 C0.292551724,19.7746341 0,19.6282927 0,19.3702439" id="Fill-220" fill="#C4C2A5"></path>
+                        <path d="M28,19.3702439 L28,0.629756098 C28,0.371707317 27.7074483,0.225365854 27.5042069,0.38195122 L17.862069,10.2439024 L27.5042069,19.6185366 C27.7074483,19.7746341 28,19.6282927 28,19.3702439" id="Fill-221" fill="#C4C2A5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
