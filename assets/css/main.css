@@ -43,22 +43,35 @@
 
 	#title {
 		color: #393939;
+		font-size: 45px;
+		margin-bottom: .2em;
+		font-weight: 600;
 	}
 
 	#subtitle {
 		color: #5124A0;
-	}
-
-	#footer-bottom-bar {
-		color: #fff;
-		background-color: #5124A0;
-		width: 100vw;
-		height: 20vh;
-		margin-bottom: 0;
+		font-size: 45px;
+		margin-bottom: .2em;
+		font-weight: 600;
 	}
 
 	.bodyText {
 		color: #9A9A9A;
+		font-size: 20px;
+		font-weight: normal;
+	}
+
+	#logo {
+		padding: 1em 0 0 8.5em;
+	}
+
+	#subText {
+		font-size: 15px;
+		margin-left: 3.5em;
+	}
+
+	#appScreenImage {
+		margin-bottom: 9em;
 	}
 
 /* Box Model */
@@ -2467,14 +2480,9 @@
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
 	}
-
-		ul li {
-			padding-left: 0.5em;
-		}
 
 		ul.alt {
 			list-style: none;
@@ -2582,73 +2590,6 @@
 				}
 
 	}
-
-		ul.actions {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.actions li {
-				display: inline-block;
-				padding: 0 1em 0 0;
-				vertical-align: middle;
-			}
-
-				ul.actions li:last-child {
-					padding-right: 0;
-				}
-
-			ul.actions.small li {
-				padding: 0 0.5em 0 0;
-			}
-
-			ul.actions.vertical li {
-				display: block;
-				padding: 1em 0 0 0;
-			}
-
-				ul.actions.vertical li:first-child {
-					padding-top: 0;
-				}
-
-				ul.actions.vertical li > * {
-					margin-bottom: 0;
-				}
-
-			ul.actions.vertical.small li {
-				padding: 0.5em 0 0 0;
-			}
-
-				ul.actions.vertical.small li:first-child {
-					padding-top: 0;
-				}
-
-			ul.actions.fit {
-				display: table;
-				margin-left: -1em;
-				padding: 0;
-				table-layout: fixed;
-				width: calc(100% + 1em);
-			}
-
-				ul.actions.fit li {
-					display: table-cell;
-					padding: 0 0 0 1em;
-				}
-
-					ul.actions.fit li > * {
-						margin-bottom: 0;
-					}
-
-				ul.actions.fit.small {
-					margin-left: -0.5em;
-					width: calc(100% + 0.5em);
-				}
-
-					ul.actions.fit.small li {
-						padding: 0 0 0 0.5em;
-					}
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
@@ -3642,7 +3583,7 @@
 	#header {
 		background-color: #fff;
 		color: #d0e4f8;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 0 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3659,7 +3600,7 @@
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 100vh;
+		height: 75vh;
 		min-height: 35em;
 	}
 
@@ -3842,7 +3783,6 @@
 		}
 
 		#header p {
-			font-size: 1.5em;
 			line-height: 1.35em;
 		}
 
