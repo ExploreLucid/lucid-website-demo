@@ -49,6 +49,14 @@
 		color: #5124A0;
 	}
 
+	#footer-bottom-bar {
+		color: #fff;
+		background-color: #5124A0;
+		width: 100vw;
+		height: 20vh;
+		margin-bottom: 0;
+	}
+
 	.bodyText {
 		color: #9A9A9A;
 	}
