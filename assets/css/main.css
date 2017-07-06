@@ -74,6 +74,13 @@
 		margin-bottom: 9em;
 	}
 
+	.footer-bottom-bar {
+		background-color: #5124A0;
+		padding: .5em 0 .5em 0;
+		margin-bottom: 0;
+		font-size: 13px;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2479,7 +2486,7 @@
 			padding-left: 0.25em;
 		}
 
-	ul {
+	.appStoreButtons {
 		list-style: none;
 		margin: 0 0 2em 0;
 	}
@@ -3583,7 +3590,7 @@
 	#header {
 		background-color: #fff;
 		color: #d0e4f8;
-		padding: 0 0 2.5em 0 ;
+		padding: 0 0 0 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3600,8 +3607,8 @@
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 75vh;
-		min-height: 35em;
+		height: 72vh;
+		min-height: 30em;
 	}
 
 		#header input[type="submit"],
@@ -4011,13 +4018,16 @@
 /* Footer */
 
 	#footer {
-		padding: 4.5em 0 2.5em 0 ;
 		color: #fff;
 		text-align: center;
 	}
 
 		#footer input, #footer select, #footer textarea {
 			color: #999999;
+		}
+		
+		#footer p {
+			margin-bottom: 0;
 		}
 
 		#footer a {
@@ -4056,6 +4066,10 @@
 
 		#footer .copyright {
 			font-size: 0.8em;
+		}
+
+		#footer .icons {
+			padding: 2em 0 2em 0;
 		}
 
 		@media screen and (max-width: 980px) {
