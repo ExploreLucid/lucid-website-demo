@@ -4171,6 +4171,10 @@
 		display: block;
 	}
 
+	#footer {
+		margin-top: 3em;
+	}
+
 	#header .inner {
 		margin-left: 2.3em;
 		margin-bottom: 2em;
@@ -4233,6 +4237,23 @@
 
 }
 
+@media screen and (max-width: 430px) {
+	#footer {
+		margin-top: 1.8em;
+	}
+}
+
+
+@media screen and (max-width: 380px) {
+
+	#mobileAppStoreButton {
+		margin-left: .5em;
+		margin-right: 1.2em;
+		padding-right: 1.6em;
+	}
+
+}
+
 @media screen and (max-width: 330px) {
 
 	#logo {
@@ -4259,6 +4280,10 @@
 
 	#header .inner {
 		margin-bottom: 0;
+	}
+
+	#footer {
+		margin-top: 0;
 	}
 
 }
