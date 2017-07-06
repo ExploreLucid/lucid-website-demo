@@ -94,6 +94,10 @@
 		font-size: 13px;
 	}
 
+	.displaysOnMobile {
+		display: none;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -4133,3 +4137,29 @@
 		#footer .icons {
 			padding: 2em 0 2em 0;
 		}
+
+@media screen and (max-width: 758px) {
+
+	.bodyText {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 724px) {
+	.hidesOnMobile {
+		display: none;
+	}
+
+	.displaysOnMobile {
+		display: block;
+		text-align: center;
+	}
+
+	#mobileAppScreenImage {
+		text-align: center;
+		max-width: 75%;
+		max-height: 75%;
+		margin: 0;
+		padding: 0;
+	}
+}
