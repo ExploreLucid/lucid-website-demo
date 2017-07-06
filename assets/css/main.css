@@ -65,6 +65,8 @@
 	}
 
 	#logo {
+		max-width: 25%;
+		max-height: 25%;
 		padding: 1em 0 4em .2em;
 	}
 
@@ -74,7 +76,15 @@
 	}
 
 	#appScreenImage {
-		margin-top: 3em;
+		max-height: 420px;
+		max-width: 600px;
+		margin: 3em 0 0 2.4em;
+	}
+
+	.inner {
+		max-height: 455px;
+		max-width: 780px;
+		text-align: right;
 	}
 
 	.footer-bottom-bar {
@@ -2943,7 +2953,7 @@
 		.wrapper > .inner {
 			margin-left: auto;
 			margin-right: auto;
-			width: 50em;
+			width: 50vw;
 		}
 
 			.wrapper > .inner.alt > * {
