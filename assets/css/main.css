@@ -4143,11 +4143,12 @@
 			padding: 2em 0 2em 0;
 		}
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 770px) {
 
 	.bodyText {
 		font-size: 10px;
 	}
+
 }
 
 @media screen and (max-width: 724px) {
@@ -4177,11 +4178,11 @@
 	}
 
 	#title {
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 	#subtitle {
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 	.bodyText {
@@ -4211,11 +4212,11 @@
 	}
 
 	#title {
-		font-size: 28px;
+		font-size: 25px;
 	}
 
 	#subtitle {
-		font-size: 28px;
+		font-size: 25px;
 	}
 
 	.bodyText {
@@ -4224,6 +4225,36 @@
 
 	#mobileAppStoreButton {
 		margin-left: 1.4em;
+	}
+
+	#header .inner {
+		margin-bottom: 0;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+
+	#logo {
+		margin-left: 5.5em;
+	}
+
+	#title {
+		font-size: 22px;
+	}
+
+	#subtitle {
+		font-size: 22px;
+	}
+
+	.bodyText {
+		font-size: 10px;
+	}
+
+	#mobileAppStoreButton {
+		margin-left: 0;
+		margin-right: 1.4em;
+		padding-right: 1.2em;
 	}
 
 	#header .inner {
