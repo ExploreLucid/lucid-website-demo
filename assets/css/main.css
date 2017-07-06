@@ -46,23 +46,26 @@
 		font-size: 45px;
 		margin-bottom: .2em;
 		font-weight: 600;
+		line-height: 1.35em;
 	}
 
 	#subtitle {
 		color: #5124A0;
 		font-size: 45px;
-		margin-bottom: .2em;
+		margin: .25em 0 .45em 0;
 		font-weight: 600;
+		line-height: 1.35em;
 	}
 
 	.bodyText {
-		color: #9A9A9A;
-		font-size: 20px;
+		color: #ccc;
+		font-size: 18px;
 		font-weight: normal;
+		line-height: 1.55em;
 	}
 
 	#logo {
-		padding: 1em 0 0 8.5em;
+		padding: 1em 0 4em .2em;
 	}
 
 	#subText {
@@ -71,7 +74,7 @@
 	}
 
 	#appScreenImage {
-		margin-bottom: 9em;
+		margin-top: 3em;
 	}
 
 	.footer-bottom-bar {
@@ -777,7 +780,45 @@
 
 	}
 
+	@media screen and (max-width: 1100px) {
+
+	#title {
+		font-size: 30px;
+	}
+
+	#subtitle {
+		font-size: 30px;
+	}
+
+	.bodyText {
+		font-size: 15px;
+	}
+
+	}
+
 	@media screen and (max-width: 980px) {
+
+	#title {
+		font-size: 25px;
+	}
+
+	#subtitle {
+		font-size: 25px;
+	}
+
+	.bodyText {
+		font-size: 12.5px;
+	}
+
+	#logo {
+		max-width: 30%;
+		max-height: 30%;
+	}
+
+	#appScreenImage {
+		margin-right: -10em;
+		max-height: 75%;
+	}
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -3607,8 +3648,8 @@
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 72vh;
-		min-height: 30em;
+		height: 95vh;
+		min-height: 35em;
 	}
 
 		#header input[type="submit"],
@@ -3789,10 +3830,6 @@
 			margin-bottom: 0.5em;
 		}
 
-		#header p {
-			line-height: 1.35em;
-		}
-
 			#header p br {
 				display: inline;
 			}
@@ -3849,12 +3886,12 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: auto;
+				height: 88vh;
 				min-height: 0;
 			}
 
 				#header .content {
-					margin: -2em 4em 0 0;
+					margin: -2em 3em 0 0;
 				}
 
 		}
