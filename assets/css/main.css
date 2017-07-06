@@ -105,6 +105,10 @@
 		width: 57px;
 	}
 
+	.appStoreButton {
+		margin-left: -.51em;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -4210,10 +4214,6 @@
 	#mobileAppStoreButton {
 		margin-left: 1.82em;
 	}
-}
-
-@media screen and (max-width: 768px) and (max-height: 1028px) {
-	
 }
 
 @media screen and (max-width: 420px) {
