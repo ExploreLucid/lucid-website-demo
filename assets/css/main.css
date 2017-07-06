@@ -1043,6 +1043,23 @@
 
 	}
 
+
+	@media screen and (max-width: 820px) {
+	#title {
+		font-size: 20px;
+	}
+
+	#subtitle {
+		font-size: 20px;
+	}
+
+	.bodyText {
+		font-size: 12px;
+	}
+
+
+	}
+
 	@media screen and (max-width: 736px) {
 
 		.row > * {
@@ -3654,7 +3671,6 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3885,24 +3901,12 @@
 				opacity: 1;
 			}
 
-		@media screen and (max-width: 1280px) {
-
-			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
-			}
-
-		}
-
 		@media screen and (max-width: 980px) {
 
 			#header {
 				height: 88vh;
 				min-height: 0;
 			}
-
-				#header .content {
-					margin: -2em 3em 0 0;
-				}
 
 		}
 
@@ -3929,31 +3933,42 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 750px) {
 
-			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
-			}
-
-				#header h1 {
-					font-size: 2em;
+				#header .content {
+					margin: 0 2em 0 5em;
 				}
 
-				#header p {
-					font-size: 1em;
-					line-height: inherit;
+				.bodyText {
+					font-size: 10px;
 				}
 
 		}
 
 		@media screen and (max-width: 736px) and (orientation: landscape) {
 
+				#header .content {
+					margin: 0 2em 0 5em;
+				}
+		}
+
+		@media screen and (max-width: 760px) and (orientation: landscape) {
+
 			#header {
 				padding: 2em 2em 0.1em 2em ;
 			}
 
+			#title {
+				font-size: 20px;
+			}
+
+			#subtitle {
+				font-size: 20px;
+			}
+
 				#header .content {
-					margin: 0 2em 2em 0;
+					margin: 0 2em 0 3em;
+					font-size: 11px;
 				}
 
 				#header .image {
