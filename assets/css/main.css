@@ -4012,8 +4012,8 @@
 		}
 
 	/* Iphone 6plus */
-	@media screen and (max-width: 414px) {
-		
+	@media screen and (max-width: 420px) {
+
 	}
 
 	@media screen and (max-width: 480px) and (orientation: landscape) {
@@ -4031,14 +4031,14 @@
 			}
 
 	}
-
+/*
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		#header {
 			padding: 2em 1em 0.1em 1em ;
 		}
 
-	}
+	}*/
 
 		body.is-mobile #header {
 			background-attachment: scroll, scroll;
