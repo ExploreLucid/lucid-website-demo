@@ -66,8 +66,8 @@
 	}
 
 	#logo {
-		max-width: 20%;
-		max-height: 20%;
+		max-width: 22.5%;
+		max-height: 22.5%;
 		padding: 1em 0 4em .2em;
 		margin-top: 5em;
 	}
@@ -4102,7 +4102,7 @@
 		#footer input, #footer select, #footer textarea {
 			color: #999999;
 		}
-		
+
 		#footer p {
 			margin-bottom: 0;
 		}
