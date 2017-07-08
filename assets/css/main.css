@@ -4012,7 +4012,7 @@
 		}
 
 	/* Iphone 6plus */
-	@media screen and (max-width: 420px) {
+	@media screen and (max-width: 420px) and (orientation: portrait) {
 
 	}
 
