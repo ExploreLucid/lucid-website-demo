@@ -106,7 +106,9 @@
 	}
 
 	.appStoreButton {
-		margin-left: -.51em;
+		max-width: 50%;
+		max-height: 50%;
+		margin-left: -.515em;
 	}
 
 /* Box Model */
@@ -4217,6 +4219,8 @@
 	}
 
 	#mobileAppStoreButton {
+		max-height: 50%;
+		max-width: 50%;
 		margin-left: 1.82em;
 	}
 }
