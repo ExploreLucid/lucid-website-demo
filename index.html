@@ -1,116 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Lucid</title>
+	<meta name="author" content="Lucid">
+	<meta name="description" content="Explore what's possible" />
+	<meta name="keywords" content="Lucid,web,web application,development,ios,android,software" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta property="og:url" content="https://explorelucid.com" />
+	<meta property="og:title" content="Lucid" />
+	<meta property="og:site_name" content="Lucid" />
+	<meta property="og:description" content="Explore what's possible" />
+	<meta property="og:image" content="https://explorelucid.com/images/fb-share-img.png" />
+	<meta property="fb:app_id" content="1692306757703263" />
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Lucid</title>
-    <meta name="author" content="Lucid">
-    <meta name="description" content="Explore what's possible"/>
-    <meta name="keywords" content="Lucid,web,web application,development,ios,android,software"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta property="og:url" content="https://explorelucid.com"/>
-    <meta property="og:title" content="Lucid" />
-    <meta property="og:site_name" content="Lucid" />
-    <meta property="og:description" content="Explore what's possible" />
-    <meta property="og:image" content="https://explorelucid.com/img/fb-share-img.png" />
-    <meta property="fb:app_id" content="1692306757703263" />
-
-    <!-- Bootstrap Core CSS -->
-    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="lib/device-mockups/device-mockups.css">
-
-    <!-- Theme CSS -->
-    <link href="css/new-age.css" rel="stylesheet">
-
-    <!--    font awesome-->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
 
 </head>
 
-<body id="page-top">
-    <header>
-        <div class="container">
-            <div class="row">
-                <div  class="col-sm-2"></div>
-                <div class="col-sm-3" id="iphone">
-                    <div class="device-container">
-                        <div id="iphone_img" class="device-mockup iphone6_plus portrait white">
-                        <div class = "device" >
-                        </div >
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="header-content">
-                        <div id="logo" >
-                            <img id="logo_img" src="img/newtry.svg"  alt="Lucid">
-                        </div>
-                        <div id="explore" >
-                            <h3>Explore What's Possible</h3>
-                        </div>
-                        <div id="description" >
-                            <p>Anonymously like your friends, match when they like you back</p>
-                        </div>
-                        <div>
-                            <img id="apple_img" src="img/AppStoreButton.svg" alt="Get our IOS app">
-                        </div>
-                    </div>
+<body id="top">
 
-                    <div class="arrow bounce">
-                        <a class="page-scroll" href="#contact">
-                            <img src="img/Arrow.svg" alt="Scroll down">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-1"></div>
-            </div>
-        </div>
-    </header>
+	<!-- Header -->
+	<header id="header">
+		<div class="content">
+			<div class="hidesOnMobile">
+				<img id="logo" src="images/lucidLogo.png" alt="Lucid" />
+				<p id="title">Explore what's possible</p>
+				<p id="subtitle">Date your friends</p>
+				<p class="bodyText">When the feeling is mutual, getting with the ones who <br> excite us should be simple. Anonymously like your <br> friends,
+					match if they like you back.</p>
+				<ul class="appStoreButtons">
+					<li><a target="_blank" href="https://appsto.re/ca/SfGTib.i"><img class="appStoreButton" src="images/appStore.png" alt="Get the app" /></a></li>
+					<!--<li><a href="#"><p id="subText">Don't have an Iphone?</p></a></li>-->
+				</ul>
+			</div>
+			<div class="displaysOnMobile">
+				<img id="mobileAppScreenImage" src="images/appScreens.png" alt="App demo" />
+			</div>
+		</div>
+		<div class="inner">
+			<div class="displaysOnMobile">
+				<img id="logo" src="images/lucidLogo.png" alt="Lucid" />
+				<p id="title">Explore what's possible</p>
+				<p id="subtitle">Date your friends</p>
+				<p class="bodyText">When the feeling is mutual, getting with the ones who <br> excite us should be simple. Anonymously like your <br> friends,
+					match if they like you back.</p>
+				<ul class="appStoreButtons">
+					<li><a target="_blank" href="https://appsto.re/ca/SfGTib.i"><img id="mobileAppStoreButton" src="images/appStore.png" alt="Get the app" /></a></li>
+					<!--<li><a href="#"><p id="subText">Don't have an Iphone?</p></a></li>-->
+				</ul>
+			</div>
+			<img class="hidesOnMobile" id="appScreenImage" src="images/appScreens.png" alt="App demo" />
+		</div>
+	</header>
 
+	<div class="hidesOnMobile" id="arrowDown" style="text-align: center;">
+		<a href="#footer">
+			<img src="images/arrow.svg" alt="Scroll down" />
+		</a>
+	</div>
 
-    <section id="contact" class="contact bg-primary">
-        <div class="container" id="icons">
-            <ul class="list-inline list-social">
-                <li class="social-google-plus">
-                    <img src="img/Instagram.svg" alt="instagram">
-                </li>
-                <li class="social-google-plus">
-                    <img src="img/Facebook.svg" alt="Facebook">
-                </li>
-                <li class="social-google-plus">
-                   <img src="img/Twitter.svg" alt="Twitter">
-                </li>
-                <li class="social-google-plus">
-                   <img src="img/Mail.svg" alt="Email us">
-                </li>
-            </ul>
-        </div>
-        <p class="footerCopy">&copy; 2017 Lucid Communication, Inc.</p>
-    </section>
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a target="_blank" href="http://instagram.com/explorelucid"><img class="socialMediaLogos" src="images/instagramLogo.png" alt="Instagram"></a></li>
+			<li><a target="_blank" href="https://www.facebook.com/ExploreLucid/"><img class="socialMediaLogos" src="images/facebookLogo.png" alt="Facebook"></a></li>
+			<li><a target="_blank" href="https://twitter.com/ExploreLucid"><img class="socialMediaLogos" src="images/twitterLogo.png" alt="Twitter"></a></li>
+			<!--<li><a href="#"><img src="images/mail.svg" alt="Email"></a></li>-->
+		</ul>
+		<div class="footer-bottom-bar">
+			<p>&copy; 2017 Lucid Communication, Inc. </p>
+		</div>
+	</footer>
 
-
-    <!-- jQuery -->
-    <script src="lib/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/new-age.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
 
 </body>
 
