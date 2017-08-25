@@ -4228,7 +4228,7 @@
 @media screen and (max-width: 420px) {
 
 	#logo {
-		margin-left: 5.8em;
+		margin-left: 5.5em;
 	}
 
 	#title {
@@ -4244,7 +4244,7 @@
 	}
 
 	#mobileAppStoreButton {
-		margin-left: 1.4em;
+		margin-left: 3.55em;
 	}
 
 	#header .inner {
@@ -4262,15 +4262,21 @@
 
 @media screen and (max-width: 380px) {
 
+	#logo {
+		margin-left: 5.3em;		
+	}
+
 	#mobileAppStoreButton {
-		margin-left: .5em;
-		margin-right: 1.2em;
-		padding-right: 1.6em;
+		margin-left: 3.3em;
 	}
 
 }
 
 @media screen and (max-width: 330px) {
+
+	#mobileAppStoreButton {
+		margin-left: 3em;
+	}
 
 	#logo {
 		margin-left: 5.5em;
@@ -4290,8 +4296,6 @@
 
 	#mobileAppStoreButton {
 		margin-left: 0;
-		margin-right: 1.4em;
-		padding-right: 1.2em;
 	}
 
 	#header .inner {
