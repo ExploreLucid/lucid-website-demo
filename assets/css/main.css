@@ -4196,15 +4196,18 @@
 
 	#title {
 		font-size: 28px;
+		margin-left: 1em;
 		padding-top: 0;
 	}
 
 	#subtitle {
 		font-size: 28px;
+		margin-left: 1em;
 	}
 
 	.bodyText {
 		font-size: 15px;
+		margin-left: 2em;
 	}
 
 	#header .content {
@@ -4232,15 +4235,15 @@
 	}
 
 	#title {
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	#subtitle {
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	.bodyText {
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	#mobileAppStoreButton {
@@ -4249,6 +4252,10 @@
 
 	#header .inner {
 		margin-bottom: 0;
+	}
+
+	#mobileAppScreenImage {
+		margin-left: .5em;
 	}
 
 }
@@ -4275,27 +4282,26 @@
 @media screen and (max-width: 330px) {
 
 	#mobileAppStoreButton {
-		margin-left: 3em;
+		margin-left: 3.5em;
 	}
 
 	#logo {
-		margin-left: 5.5em;
+		margin-left: 5.2em;
 	}
 
 	#title {
-		font-size: 22px;
+		font-size: 20px;
+		margin-left: .5em;
 	}
 
 	#subtitle {
-		font-size: 22px;
+		font-size: 20px;
+		margin-left: .5em;
 	}
 
 	.bodyText {
-		font-size: 10px;
-	}
-
-	#mobileAppStoreButton {
-		margin-left: 0;
+		margin-left: 1.2em;
+		font-size: 8px;
 	}
 
 	#header .inner {
@@ -4306,4 +4312,7 @@
 		margin-top: 0;
 	}
 
+	#mobileAppScreenImage {
+		margin-left: 1.4em;
+	}
 }
