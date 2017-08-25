@@ -4172,7 +4172,7 @@
 
 	#logo {
 		padding: 0 0 2em 0;
-		margin-left: 6.4em;
+		margin-left: 12.4em;
 		margin-top: 2em;
 	}
 
@@ -4196,18 +4196,18 @@
 
 	#title {
 		font-size: 28px;
-		margin-left: 1em;
+		margin-left: 4.5em;
 		padding-top: 0;
 	}
 
 	#subtitle {
 		font-size: 28px;
-		margin-left: 1em;
+		margin-left: 4.5em;
 	}
 
 	.bodyText {
 		font-size: 15px;
-		margin-left: 2em;
+		margin-left: 8.4em;
 	}
 
 	#header .content {
@@ -4217,6 +4217,7 @@
 	}
 
 	#mobileAppScreenImage {
+		margin-top: 6.5em;
 		max-width: 75%;
 		max-height: 75%;
 	}
@@ -4224,7 +4225,7 @@
 	#mobileAppStoreButton {
 		max-height: 50%;
 		max-width: 50%;
-		margin-left: 1.82em;
+		margin-left: 8.5em;
 	}
 }
 
