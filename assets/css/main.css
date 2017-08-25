@@ -4237,14 +4237,17 @@
 
 	#title {
 		font-size: 22px;
+		margin-left: 1.5em;
 	}
 
 	#subtitle {
 		font-size: 22px;
+		margin-left: 1.5em;
 	}
 
 	.bodyText {
 		font-size: 10px;
+		margin-left: 3.4em;
 	}
 
 	#mobileAppStoreButton {
@@ -4256,6 +4259,7 @@
 	}
 
 	#mobileAppScreenImage {
+		margin-top: 0;
 		margin-left: .5em;
 	}
 
@@ -4275,7 +4279,20 @@
 	}
 
 	#mobileAppStoreButton {
-		margin-left: 3.3em;
+		margin-left: 3.45em;
+	}
+
+
+	#title {
+		margin-left: .8em;
+	}
+
+	#subtitle {
+		margin-left: .8em;
+	}
+
+	.bodyText {
+		margin-left: 2em;
 	}
 
 }
@@ -4283,21 +4300,21 @@
 @media screen and (max-width: 330px) {
 
 	#mobileAppStoreButton {
-		margin-left: 3.5em;
+		margin-left: 3em;
 	}
 
 	#logo {
-		margin-left: 5.2em;
+		margin-left: 4.35em;
 	}
 
 	#title {
 		font-size: 20px;
-		margin-left: .5em;
+		margin-left: .3em;
 	}
 
 	#subtitle {
 		font-size: 20px;
-		margin-left: .5em;
+		margin-left: .3em;
 	}
 
 	.bodyText {
@@ -4314,6 +4331,6 @@
 	}
 
 	#mobileAppScreenImage {
-		margin-left: 1.4em;
+		margin-left: .6em;
 	}
 }
